@@ -36,4 +36,6 @@ a{
   --text-color: var(--color-black);
   --font-family-base: "Helvetica Neue, Helvetica, Arial, sans-serif";
   --font-family-title:"Helvetica Neue, Helvetica, Arial, sans-serif";
+  --font-size-small: 1.2rem;
+  --font-size-medium:
 }
