@@ -34,7 +34,7 @@ a{
   color: var(--color-primary);
 }
 
-/* Targets the root element and creates custom properties */
+/* Add line height to the custom properties */
 :root{
   --color-primary: #d73953;
   --color-black: #090909;
