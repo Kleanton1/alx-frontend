@@ -18,9 +18,24 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: var(--font-weight-bold);
 }
 
-a{
+a:link {
   color: var(--text-color);
   text-decoration: none;
+}
+
+/* Directly after, target the visted state and italicize the text */
+a:visited{
+  font-style: italic;
+}
+
+/* Directly after, target the hover state and underline the links */
+a:hover{
+  text-decoration: underline;
+}
+
+/* Directly after, target the active state and set the bg-color to color-light-grey */
+a:active{
+  background-color: var(--color-light-grey);
 }
 
 .visually-hidden {
@@ -35,7 +50,6 @@ a{
   text-align: var(--section-header-align);
 }
 
-/* Just above the section-tagline declaration, create a new declaration targeting the class section-header */
 .section-title{
   font-family: var(--font-family-title);
   font-size: var(--font-size-xx-large);
