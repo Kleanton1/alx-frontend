@@ -70,6 +70,7 @@ template{display: none;} /* prettier-ignore */
 	--section-footer-padding: 3rem 0 0;
 	--section-footer-align: center;
 	--footer-padding: 5rem 0 1rem;
+	/* Nav Variables 
 }
 
 *, *:before, *:after {
